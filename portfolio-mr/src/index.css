@@ -17,9 +17,35 @@ nav {
   text-align: center;
 }
 
+#about-me-title {
+  text-align: center;
+}
 
+.about-me-image {
+  width: 50%;
+  height: 50%;
+}
+
+footer {
+  display: inline;
+  text-align: center;
+}
+
+.footer-icon{
+  height: 50px;
+  width: 50px;
+}
 
 ul {
   display: inline-block;
+  list-style: none;
+}
+
+#main-contact {
+  text-align: center;
+}
+
+#contact-methods {
+  text-align: center;
   list-style: none;
 }
