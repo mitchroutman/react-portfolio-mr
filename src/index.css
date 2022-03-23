@@ -1,0 +1,97 @@
+:root {
+  --bkgcolor: #BDD5EA;
+  --dark: #495867;
+  --medium: #577399;
+  --light: #BDD5EA;
+  --highlight: #FE5F55;
+  --fntcolor: #F7F7FF;
+  --fntfamily: Helvetica;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--dark);
+  color: var(--fntcolor)
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#nav-main {
+  display: inline;
+  text-align: center;
+  
+}
+
+#about-me-title {
+  text-align: center;
+}
+
+.about-me-image {
+  width: 50%;
+  height: 50%;
+}
+
+footer {
+  display: inline;
+  text-align: center;
+}
+
+.footer-icon{
+  height: 50px;
+  width: 50px;
+}
+
+ul {
+  display: flex;
+  flex-direction: inline;
+  list-style: none;
+  text-align: center;
+}
+
+
+#main-contact {
+  text-align: center;
+}
+
+#contact-methods {
+  text-align: center;
+  list-style: none;
+}
+
+#contact-me-header {
+  text-align: center;
+}
+
+.welcome-main {
+  text-align: center;
+}
+
+.welcome {
+  text-align: center;
+}
+
+#nav-main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.card-body {
+  color: var(--dark)
+}
+
+#projects-header {
+  text-align: center;
+}
+
+li {
+  color: var(--highlight);
+}
